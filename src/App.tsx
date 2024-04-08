@@ -4,12 +4,6 @@ import { toProductInformation, toDictionary } from "./lib/utils";
 import { getProducts, getUsers, getReviews, getCompanies } from "./lib/api";
 import { useEffect, useState, FC } from "react";
 import Card from "./Card";
-// Техническое задание:
-// Доработать приложение App, чтобы в отрисованном списке
-// были реальные отзывы и их авторы,
-// а также компания-производитель с названием и годом происхождения,
-// Данные об отзывах, пользователях и компаниях можно получить при помощи асинхронных
-// функций getUsers, getReviews, getCompanies
 
 // функция getProducts возвращает Promise<Product[]>
 // функция getUsers возвращает Promise<User[]>
