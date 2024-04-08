@@ -1,4 +1,4 @@
-## Animals
+## Goods
 
 This project was created on JS React with Typescript
 
